@@ -39,6 +39,7 @@ if len(sys.argv) == 3 or len(sys.argv) ==4:
         sys.exit(2)
 else:
     print_help()
+    sys.exit(22)
 
 
 img = Image.open(name)
